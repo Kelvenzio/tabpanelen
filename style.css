@@ -1,0 +1,45 @@
+body {
+    font-family: calibri;
+    background-color: midnightblue;
+}
+.knoppen {
+    overflow: hidden;
+    width: 330px;
+    margin: 0 auto;
+}
+.knoppen li {
+    list-style-type: none;
+    text-align: center;
+    display:inline-block;
+}
+.knoppen li.actief {
+    background-color: gainsboro;
+    border-radius: 20%;
+}
+.paneel.actief {
+    display: block !important;
+}
+.paneel img {
+    max-width: 100%;
+    border-radius: 2%;
+}
+.nieuws {
+    border: 3px solid black;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    padding: 2%;
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: lime;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-family: calibri;
+    padding: 5px;
+    color: black;
+}
